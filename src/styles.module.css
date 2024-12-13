@@ -1,0 +1,57 @@
+/* styles.module.css */
+.navbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* New dropdown menu for the About section */
+.aboutDropdown {
+    position: relative;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.aboutDropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent .link {
+    padding: 12px 16px;
+    display: block;
+}
+
+.page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.aboutSection {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.aboutSection h2 {
+    margin-bottom: 10px;
+}
+
+.aboutSection p {
+    font-size: 16px;
+    line-height: 1.6;
+}
